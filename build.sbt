@@ -17,3 +17,8 @@ val common = Seq(
 
 lazy val json4s = (project in file("."))
   .settings(common: _*)
+
+lazy val examples = project
+  .dependsOn(json4s)
+  .settings(common: _*)
+  .settings(name := "json4s-examples")

@@ -1,7 +1,7 @@
 import sbt._
 
 val common = Seq(
-  name := "json4s-ext",
+  name := "json4s",
   organization := "com.adlawson",
   version := "0.1.0-SNAPSHOT",
   scalaVersion := "2.11.5",
